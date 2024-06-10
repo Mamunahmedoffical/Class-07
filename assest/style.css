@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+svg {
+  width: 30px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-icon-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+nav {
+  display: flex;
+}
+
+nav-icon svg {
+  width: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+
+  align-items: center;
+}
+
+ul li a {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  background-color: rgb(122, 121, 121);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 600px;
+  background-image: url(https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container {
+  background-color: rgb(138, 138, 138);
+}
